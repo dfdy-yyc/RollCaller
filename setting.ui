@@ -172,7 +172,7 @@ QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical
                 </size>
                </property>
                <property name="styleSheet">
-                <string notr="true">image: url(:/svg/Morikawa/01_Data/img/image/image.png);
+                <string notr="true">image: url(:/image.png);
 border-radius:32px;
 background-color: rgb(223, 223, 223);</string>
                </property>
@@ -560,7 +560,7 @@ border:none;
                  </font>
                 </property>
                </widget>
-               <widget class="QDoubleSpinBox" name="doubleSpinBox">
+               <widget class="QSpinBox" name="spinBox">
                 <property name="geometry">
                  <rect>
                   <x>30</x>
@@ -570,14 +570,14 @@ border:none;
                  </rect>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">QDoubleSpinBox#doubleSpinBox{
+                 <string notr="true">QSpinBox#spinBox{
 	background-color: white;
 	border-radius:20px;
 	color: rgb(0, 0, 0);
 }</string>
                 </property>
                 <property name="maximum">
-                 <double>100000.000000000000000</double>
+                 <number>20000</number>
                 </property>
                </widget>
               </widget>
